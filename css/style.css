@@ -88,7 +88,6 @@ header.scrolled {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     padding: 120px 0 80px;
     background: #f8f9fa;
@@ -133,11 +132,11 @@ header.scrolled {
 .btn-primary:hover {
     background: #45a049;
 }
-
-.hero-image {
-    display: flex;
-    justify-content: center;
-}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 .hero-img-container {
     width: 400px;
@@ -693,6 +692,7 @@ header.scrolled {
 }
 
 @media (max-width: 480px) {
+    
     .burger {
         display: flex;
     }
